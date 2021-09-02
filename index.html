@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book House</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class='bg-dark'>
+    <section class="container ">
+        <h4 class="text-danger text-center mt-5">E-BOOK CENTER </h4>
+        <h6 class="text-secondary text-center mt-0">Search your favorite Book Any Time....</h6>
+        <div class="d-flex flex-md-row flex-column align-items-center justify-content-center ms-5 mb-3 mt-3">
+            <input id="searchInput" type="text" class="form-control w-50 " placeholder="Enter Book Name.....">
+            <button onclick="" class="btn btn-info w-25 mt-4 mt-md-0" type="button" id="searchButton">Search</button>
+        </div>
+        <div class="text-center" ><p id="total" class="text-white"></p></div>
+        <div>
+            <h4 id="errorMessage" class="text-danger text-center"></h4>
+            <h4 id="loadingMessage" class="text-success text-center"></h4>
+
+
+    </section>
+
+    <section class="container mt-2">
+        <div id="bookMainDiv" class="row">
+
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="book.js"></script>
+</body>
+
+</html>
